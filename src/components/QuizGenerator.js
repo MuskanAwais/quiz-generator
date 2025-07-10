@@ -69,7 +69,7 @@ const QuizGenerator = ({ onQuizGenerated, setIsGenerating, setError }) => {
 
   const generateQuiz = async (content, numQuestions, instructions) => {
     const groq = new Groq({
-      apiKey: 'hello',
+      apiKey: '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',
       dangerouslyAllowBrowser: true
     });
     
